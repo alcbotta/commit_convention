@@ -1,0 +1,74 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%; }
+  html .App,
+  body .App,
+  #root .App {
+    height: 100%;
+    width: 100%; }
+
+.app-container {
+  height: 100%;
+  width: 100%; }
+
+.two-screens-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 10px; }
+  .two-screens-container .screen {
+    align-content: flex-start;
+    padding: 30px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    width: 100%; }
+    .two-screens-container .screen:first-child {
+      margin-right: 10px; }
+  .two-screens-container .left {
+    text-align: left;
+    overflow: auto; }
+    .two-screens-container .left textarea {
+      min-height: 150px; }
+  .two-screens-container .right {
+    background: lightgray;
+    /* Safari 4.0 - 8.0 */ }
+    .two-screens-container .right .copy-button {
+      position: relative;
+      left: -25px;
+      top: -38px;
+      width: 0%; }
+    .two-screens-container .right .copy-button:active {
+      -webkit-animation-name: rotate;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: rotate;
+      animation-duration: 1s; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg); }
+  25% {
+    transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg); }
+  50% {
+    transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg); }
+  75% {
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg); }
+  100% {
+    transform: rotate(3600deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+    .two-screens-container .right .commit-message-formatted {
+      text-align: left;
+      white-space: pre-wrap;
+      overflow: auto; }
