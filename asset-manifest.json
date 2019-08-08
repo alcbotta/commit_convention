@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/commit_convention/static/css/main.6f870e65.chunk.css",
-    "main.js": "/commit_convention/static/js/main.265cc1bc.chunk.js",
-    "main.js.map": "/commit_convention/static/js/main.265cc1bc.chunk.js.map",
-    "runtime~main.js": "/commit_convention/static/js/runtime~main.01b4a775.js",
-    "runtime~main.js.map": "/commit_convention/static/js/runtime~main.01b4a775.js.map",
-    "static/css/2.57797527.chunk.css": "/commit_convention/static/css/2.57797527.chunk.css",
-    "static/js/2.a93dda35.chunk.js": "/commit_convention/static/js/2.a93dda35.chunk.js",
-    "static/js/2.a93dda35.chunk.js.map": "/commit_convention/static/js/2.a93dda35.chunk.js.map",
-    "index.html": "/commit_convention/index.html",
-    "precache-manifest.5b323618dc63992a3f210c2f5e2bca35.js": "/commit_convention/precache-manifest.5b323618dc63992a3f210c2f5e2bca35.js",
-    "service-worker.js": "/commit_convention/service-worker.js",
-    "static/css/2.57797527.chunk.css.map": "/commit_convention/static/css/2.57797527.chunk.css.map",
-    "static/css/main.6f870e65.chunk.css.map": "/commit_convention/static/css/main.6f870e65.chunk.css.map"
+    "main.css": "/static/css/main.9b6d829c.chunk.css",
+    "main.js": "/static/js/main.02d62fe3.chunk.js",
+    "main.js.map": "/static/js/main.02d62fe3.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.57797527.chunk.css": "/static/css/2.57797527.chunk.css",
+    "static/js/2.5dac8f47.chunk.js": "/static/js/2.5dac8f47.chunk.js",
+    "static/js/2.5dac8f47.chunk.js.map": "/static/js/2.5dac8f47.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2af40cc6ebe85279cd22f774135fc337.js": "/precache-manifest.2af40cc6ebe85279cd22f774135fc337.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.57797527.chunk.css.map": "/static/css/2.57797527.chunk.css.map",
+    "static/css/main.9b6d829c.chunk.css.map": "/static/css/main.9b6d829c.chunk.css.map"
   }
 }
