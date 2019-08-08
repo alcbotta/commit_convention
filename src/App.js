@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import Select from "react-select";
 import { Form, FormGroup, Label, Input } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClipboard } from "@fortawesome/free-solid-svg-icons";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -102,30 +100,34 @@ ${this.state.footer}`;
               </Form>
             </div>
             <div className="screen right">
-              <div
-                className="copy-button"
-                onClick={() => {
-                  var el = document.createElement("textarea");
-                  // Set value (string to be copied)
-                  el.value = '"' + this.getCommitMessage() + '"';
-                  // Set non-editable to avoid focus and move outside of view
-                  el.setAttribute("readonly", "");
-                  el.style = { position: "absolute", left: "-9999px" };
-                  document.body.appendChild(el);
-                  // Select text inside element
-                  el.select();
-                  // Copy text to clipboard
-                  document.execCommand("copy");
-                  // Remove temporary element
-                  document.body.removeChild(el);
-                }}>
-                <FontAwesomeIcon icon={faClipboard} />
-              </div>
               <div id="commit-message-formatted"> Commit message </div>
               <div className="commit-message-formatted">
                 {this.getCommitMessage()}
               </div>
             </div>
+          </div>
+          <div className="footer">
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => {
+                var el = document.createElement("textarea");
+                // Set value (string to be copied)
+                el.value = '"' + this.getCommitMessage() + '"';
+                console.log(el.value);
+                // Set non-editable to avoid focus and move outside of view
+                el.setAttribute("readonly", "");
+                el.style = { position: "absolute", left: "-9999px" };
+                document.body.appendChild(el);
+                // Select text inside element
+                el.select();
+                // Copy text to clipboard
+                document.execCommand("copy");
+                // Remove temporary element
+                document.body.removeChild(el);
+              }}>
+              Copy commit message
+            </button>
           </div>
         </div>
       </div>
