@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/commit_convention/static/css/main.ba49ec77.chunk.css",
-    "main.js": "/commit_convention/static/js/main.4c10d7b4.chunk.js",
-    "main.js.map": "/commit_convention/static/js/main.4c10d7b4.chunk.js.map",
+    "main.css": "/commit_convention/static/css/main.505e05cf.chunk.css",
+    "main.js": "/commit_convention/static/js/main.e7d8d31d.chunk.js",
+    "main.js.map": "/commit_convention/static/js/main.e7d8d31d.chunk.js.map",
     "runtime~main.js": "/commit_convention/static/js/runtime~main.01b4a775.js",
     "runtime~main.js.map": "/commit_convention/static/js/runtime~main.01b4a775.js.map",
-    "static/js/2.4f057907.chunk.js": "/commit_convention/static/js/2.4f057907.chunk.js",
-    "static/js/2.4f057907.chunk.js.map": "/commit_convention/static/js/2.4f057907.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/commit_convention/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.ee0ce0d8.chunk.js": "/commit_convention/static/js/2.ee0ce0d8.chunk.js",
+    "static/js/2.ee0ce0d8.chunk.js.map": "/commit_convention/static/js/2.ee0ce0d8.chunk.js.map",
     "index.html": "/commit_convention/index.html",
-    "precache-manifest.9954c901a18951fbfeb7dc116c79f3ce.js": "/commit_convention/precache-manifest.9954c901a18951fbfeb7dc116c79f3ce.js",
+    "precache-manifest.48702cb3f4bae5b82c8f5f5b414ec94e.js": "/commit_convention/precache-manifest.48702cb3f4bae5b82c8f5f5b414ec94e.js",
     "service-worker.js": "/commit_convention/service-worker.js",
-    "static/css/main.ba49ec77.chunk.css.map": "/commit_convention/static/css/main.ba49ec77.chunk.css.map",
-    "static/media/logo.svg": "/commit_convention/static/media/logo.ee7cd8ed.svg"
+    "static/css/2.22a7d4ef.chunk.css.map": "/commit_convention/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.505e05cf.chunk.css.map": "/commit_convention/static/css/main.505e05cf.chunk.css.map"
   }
 }
