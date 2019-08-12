@@ -17,6 +17,5 @@ steps:
       from_secret: github_username
     password:
       from_secret: github_password
-    force_push: true
     pages_directory: public/
     temporary_base: tmp/
