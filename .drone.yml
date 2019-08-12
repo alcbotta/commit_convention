@@ -15,8 +15,9 @@ steps:
   settings:
     DRONE_COMMIT_AUTHOR: "Andre Botta"
     DRONE_COMMIT_AUTHOR_EMAIL: "alcbotta@gmail.com"
-    username:
-      from_secret: github_username
+    username: "alcbotta"
+    # username:
+    #   from_secret: github_username
     password:
       from_secret: github_password
     pages_directory: public/
