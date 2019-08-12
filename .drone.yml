@@ -8,8 +8,6 @@ steps:
     - npm install
     - npm run build
     - mv ./build/* /drone/src/public
-    - git config --global user.email "alcbotta"
-    - git config --global user.name "Andre Botta"
 - name: publish  
   image: plugins/gh-pages
   settings:
@@ -17,5 +15,3 @@ steps:
       from_secret: github_username
     password:
       from_secret: github_password
-    pages_directory: public/
-    temporary_base: tmp/
