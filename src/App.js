@@ -30,7 +30,7 @@ class App extends Component {
   getCommitMessage = () => {
     let tmpString = `${this.state.type ? this.state.type.value : ""} (${
       this.state.scope
-    }): ${this.state.subject} 
+      }): ${this.state.subject} 
 
 ${this.state.body}
     

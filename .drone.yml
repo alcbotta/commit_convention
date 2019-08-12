@@ -1,0 +1,17 @@
+kind: pipeline
+name: default
+
+steps:
+- name: build
+  image: node:12.6
+  commands: 
+    - npm install
+    - npm run build
+    - mv ./build/* /drone/src/docs
+- name: publish  
+  image: plugins/gh-pages
+  settings:
+    username:
+      from_secret: github_username
+    password:
+      from_secret: github_password
