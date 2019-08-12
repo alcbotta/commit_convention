@@ -16,6 +16,9 @@ steps:
   settings:
     # upstream_name: https://github.com/alcbotta/drone_react.git
     # target_branch: gh-pages
+    commands: 
+      - git config --global user.email "alcbotta"
+      - git config --global user.name "Andre Botta"
     username:
       from_secret: github_username
     password:
