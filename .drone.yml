@@ -11,15 +11,11 @@ steps:
 - name: publish  
   image: plugins/gh-pages
   settings:
-    # upstream_name: https://github.com/alcbotta/drone_react.git
-    # target_branch: gh-pages
-    environment: 
-      - DRONE_COMMIT_AUTHOR: "Andre Botta"
-      - DRONE_COMMIT_AUTHOR_EMAIL: "alcbotta@gmail.com"
+    DRONE_COMMIT_AUTHOR: "Andre Botta"
+    DRONE_COMMIT_AUTHOR_EMAIL: "alcbotta@gmail.com"
     username:
       from_secret: github_username
     password:
       from_secret: github_password
-    force_push: true
     pages_directory: public/
     temporary_base: tmp/
