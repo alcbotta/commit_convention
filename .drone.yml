@@ -13,11 +13,10 @@ steps:
 - name: publish  
   image: plugins/gh-pages
   settings:
-    DRONE_COMMIT_AUTHOR: "Andre Botta"
-    DRONE_COMMIT_AUTHOR_EMAIL: "alcbotta@gmail.com"
-    username: "alcbotta"
-    # username:
-    #   from_secret: github_username
+    PLUGIN_USER_NAME: "alcbotta"
+    PLUGIN_USER_EMAIL: "alcbotta@gmail.com"
+    username:
+      from_secret: github_username
     password:
       from_secret: github_password
     pages_directory: public/
