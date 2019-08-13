@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/commit_convention/static/css/main.505e05cf.chunk.css",
-    "main.js": "/commit_convention/static/js/main.293b683d.chunk.js",
-    "main.js.map": "/commit_convention/static/js/main.293b683d.chunk.js.map",
+    "main.css": "/commit_convention/static/css/main.59528001.chunk.css",
+    "main.js": "/commit_convention/static/js/main.26b8512b.chunk.js",
+    "main.js.map": "/commit_convention/static/js/main.26b8512b.chunk.js.map",
     "runtime~main.js": "/commit_convention/static/js/runtime~main.01b4a775.js",
     "runtime~main.js.map": "/commit_convention/static/js/runtime~main.01b4a775.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/commit_convention/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.ee0ce0d8.chunk.js": "/commit_convention/static/js/2.ee0ce0d8.chunk.js",
     "static/js/2.ee0ce0d8.chunk.js.map": "/commit_convention/static/js/2.ee0ce0d8.chunk.js.map",
     "index.html": "/commit_convention/index.html",
-    "precache-manifest.0259c6b5f5021eb4a2ea2b46ac4739fe.js": "/commit_convention/precache-manifest.0259c6b5f5021eb4a2ea2b46ac4739fe.js",
+    "precache-manifest.bd2baf425952638404c5c84eb3065a67.js": "/commit_convention/precache-manifest.bd2baf425952638404c5c84eb3065a67.js",
     "service-worker.js": "/commit_convention/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/commit_convention/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.505e05cf.chunk.css.map": "/commit_convention/static/css/main.505e05cf.chunk.css.map"
+    "static/css/main.59528001.chunk.css.map": "/commit_convention/static/css/main.59528001.chunk.css.map"
   }
 }
