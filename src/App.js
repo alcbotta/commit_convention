@@ -45,6 +45,18 @@ ${this.state.footer}`;
     });
   };
 
+  componentDidMount() {
+    setInterval(() => {
+      localStorage.setItem('commitState', JSON.stringify(this.state));
+    }, 5000);
+
+    let localStorageState = localStorage.getItem('commitState');
+    if (localStorageState) {
+      localStorageState = JSON.parse(localStorageState);
+      this.setState({ ...localStorageState })
+    }
+  }
+
   render() {
     return (
       <div className="App">
