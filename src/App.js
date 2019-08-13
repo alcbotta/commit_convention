@@ -28,13 +28,21 @@ class App extends Component {
   }
 
   getCommitMessage = () => {
-    let tmpString = `${this.state.type ? this.state.type.value : ""}${this.state.scope ? (
-      "(" + this.state.scope + ")") : ""}: ${this.state.subject} 
+    let tmpString = "";
+    if (this.state.type) {
+      tmpString += this.state.type.value;
+    }
+    if (this.state.scope) {
+      tmpString += ("(" + this.state.scope + ")")
+    }
+    tmpString += (": " + this.state.subject);
+    if (this.state.body) {
+      tmpString += ("\n\n" + this.state.body)
+    }
 
-${this.state.body}
-    
-${this.state.footer}`;
-
+    if (this.state.footer) {
+      tmpString += ("\n\n" + this.state.footer)
+    }
     return tmpString;
   };
 
