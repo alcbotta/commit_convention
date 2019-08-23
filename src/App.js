@@ -33,15 +33,15 @@ class App extends Component {
       tmpString += this.state.type.value;
     }
     if (this.state.scope) {
-      tmpString += ("(" + this.state.scope + ")")
+      tmpString += "(" + this.state.scope + ")";
     }
-    tmpString += (": " + this.state.subject);
+    tmpString += ": " + this.state.subject;
     if (this.state.body) {
-      tmpString += ("\n\n" + this.state.body)
+      tmpString += "\n\n" + this.state.body;
     }
 
     if (this.state.footer) {
-      tmpString += ("\n\n" + this.state.footer)
+      tmpString += "\n\n" + this.state.footer;
     }
     return tmpString;
   };
@@ -54,19 +54,20 @@ class App extends Component {
 
   componentDidMount() {
     setInterval(() => {
-      localStorage.setItem('commitState', JSON.stringify(this.state));
+      localStorage.setItem("commitState", JSON.stringify(this.state));
     }, 5000);
 
-    let localStorageState = localStorage.getItem('commitState');
+    let localStorageState = localStorage.getItem("commitState");
     if (localStorageState) {
       localStorageState = JSON.parse(localStorageState);
-      this.setState({ ...localStorageState })
+      this.setState({ ...localStorageState });
     }
   }
 
   render() {
     return (
       <div className="App">
+        test
         <div className="app-container">
           <div className="two-screens-container">
             <div className="screen left">
