@@ -67,7 +67,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        test5
+        test6
         <div className="app-container">
           <div className="two-screens-container">
             <div className="screen left">
