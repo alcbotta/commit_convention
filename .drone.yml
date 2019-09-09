@@ -9,15 +9,13 @@ steps:
       - npm run build
       - mkdir /drone/src/docs
       - mv ./build/* /drone/src/docs
-      - git remote set-url origin https://github.com/alcbotta/commit_convention.git
-      - git config --global  user.email "alcbotta@gmail.com"
-      - git config --local  user.email "alcbotta@gmail.com"
-      - git config --global  user.name "Andre Botta"
-      - git config --local  user.name "Andre Botta"
+      # - git remote set-url origin https://github.com/alcbotta/commit_convention.git
+      # - git config --global  user.email "alcbotta@gmail.com"
+      # - git config --local  user.email "alcbotta@gmail.com"
+      # - git config --global  user.name "Andre Botta"
+      # - git config --local  user.name "Andre Botta"
   - name: publish
     image: plugins/gh-pages
-    # commands:
-    #   - cat .git/config
     settings:
       remote_url: https://github.com/alcbotta/commit_convention.git
       username:
