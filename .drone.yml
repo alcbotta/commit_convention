@@ -12,6 +12,8 @@ steps:
       - git remote set-url origin https://github.com/alcbotta/commit_convention.git
       - git config user.email "alcbotta@gmail.com"
       - git config user.email "alcbotta"
+      - pwd
+      - ls -all
   - name: publish
     image: plugins/gh-pages
     # commands:
