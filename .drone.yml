@@ -14,11 +14,11 @@ steps:
       - git remote -v
   - name: publish
     image: plugins/gh-pages
-    commands:
-      - cat ~/.gitconfig
-      - cat ~/.git-credentials
-      - git remote -v
+    # commands:
+    #   - pwd
+    #   - git remote -v
     settings:
+      remote_url: https://github.com/alcbotta/commit_convention.git
       username:
         from_secret: github_username
       password:
