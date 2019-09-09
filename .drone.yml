@@ -15,6 +15,7 @@ steps:
   - name: publish
     image: plugins/gh-pages
     settings:
+      upstream_name: https://github.com/alcbotta/commit_convention.git
       username:
         from_secret: github_username
       password:
