@@ -16,8 +16,8 @@ steps:
       - git config --local  user.name "Andre Botta"
   - name: publish
     image: plugins/gh-pages
-    # commands:
-    #   - cat .git/config
+    commands:
+      - cat .git/config
     settings:
       remote_url: https://github.com/alcbotta/commit_convention.git
       username:
