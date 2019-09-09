@@ -9,6 +9,7 @@ steps:
       - npm run build
       - mkdir /drone/src/docs
       - mv ./build/* /drone/src/docs
+      - git remote -v
       - git remote set-url origin https://github.com/alcbotta/commit_convention.git
       - git remote -v
   - name: publish
