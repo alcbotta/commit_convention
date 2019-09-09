@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: build
-    image: node:12.6
+    image: registry.alcbotta.online/library/node:12.6
     commands:
       - npm install
       - npm run build
@@ -22,3 +22,6 @@ steps:
         from_secret: github_username
       password:
         from_secret: github_password
+
+image_pull_secrets:
+  - .dockerconfigjson
