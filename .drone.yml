@@ -14,9 +14,8 @@ steps:
       - git config --global user.email "alcbotta"
   - name: publish
     image: plugins/gh-pages
-    # commands:
-    #   - pwd
-    #   - git remote -v
+    commands:
+      - cat ~/.gitconfig
     settings:
       remote_url: https://github.com/alcbotta/commit_convention.git
       username:
